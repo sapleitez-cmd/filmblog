@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #D0C7B0;
+}
+
+p{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* NAV STARTS HERE  */
+nav{
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1D1E1E;
+    padding: 14px;
+    width: 100%;
+    text-align: left; 
+    position:fixed;
+}
+
+nav a{
+    color: #BE5C01;
+    text-decoration: underline;
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 14px ;
+    font-style: normal;
+    padding: 14px;
+}
+
+a{
+    color:#BE5C01;
+}
+
+a:hover{
+    color:#D0C7B0;
+}
