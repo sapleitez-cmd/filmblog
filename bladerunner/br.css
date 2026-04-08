@@ -27,8 +27,10 @@ nav{
     background-color: #1D1E1E;
     padding: 14px;
     width: 100%;
-    text-align: left; 
-     position:fixed;
+    text-align: left;
+    position:fixed; 
+    text-align: center;
+
 }
 
 nav a{
@@ -49,3 +51,15 @@ a{
 a:hover{
     color:#D0C7B0;
 }
+
+#headerimg{
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+#headerimg img{
+    width: 100%;
+    display: block;
+}
+

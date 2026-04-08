@@ -27,8 +27,10 @@ nav{
     background-color: #1D1E1E;
     padding: 14px;
     width: 100%;
-    text-align: left; 
-    position: fixed;
+    text-align: left;
+    position:fixed; 
+    text-align: center;
+
 }
 
 nav a{
