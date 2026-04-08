@@ -52,3 +52,15 @@ a{
 a:hover{
     color:#D0C7B0;
 }
+
+#headerimg{
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+    
+}
+
+#headerimg img{
+    width: 100%;
+    display: block;
+}
