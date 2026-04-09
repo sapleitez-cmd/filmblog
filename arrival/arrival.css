@@ -12,10 +12,36 @@ body{
     background-color: #D0C7B0;
 }
 
+/* WHY I LOVE...  */
+
+h1{
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic; 
+    color: #405B60;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 p{
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 18px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+}
+
+#stats p{
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #405B60;
 }
 
 /* NAV STARTS HERE  */
@@ -49,8 +75,10 @@ a{
 }
 
 a:hover{
-    color:#D0C7B0;
+    color:#D99100;
 }
+
+/* HEADER IMAGE STARTS HERE  */
 
 #headerimg{
     width: 100%;
@@ -62,4 +90,40 @@ a:hover{
 #headerimg img{
     width: 100%;
     display: block;
+}
+
+#trailer{
+    border: 50px solid #405B60;
+    width: 80%;
+    margin: 40px auto;
+}
+
+#trailer iframe {
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+
+/* FOOTER STARTS HERE  */
+
+footer {
+    background-color: #1D1E1E;
+    color: #D0C7B0;
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
+footer p{
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
 }

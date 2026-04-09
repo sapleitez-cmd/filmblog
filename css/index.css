@@ -67,7 +67,7 @@ a{
 }
 
 a:hover{
-    color:#D0C7B0;
+    color:#D99100;
 }
 
 /* HEADER IMAGE STARTS HERE  */
@@ -84,6 +84,8 @@ a:hover{
     display: block;
 }
 
+/* POSTERS STARTS HERE  */
+
 #movieposters{
     display:flex;
     flex-direction: row;
@@ -92,4 +94,27 @@ a:hover{
     align-items: flex-start;
     margin-top: 50px;
     padding:40px
+}
+
+/* FOOTER STARTS HERE  */
+
+footer {
+    background-color: #1D1E1E;
+    color: #D0C7B0;
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
+footer p{
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
 }
