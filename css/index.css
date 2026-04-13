@@ -140,6 +140,53 @@ a:hover{
     opacity: 1;
 }
 
+/* ABOUT ME STARTS HERE  */
+
+#aboutme{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 60px 80px;
+    background-color:#1D1E1E;
+}
+
+#myphoto{
+    flex: 1;
+}
+
+#myphoto img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+#abouttext{
+    flex: 1;
+}
+
+#abouttext h2{
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px ;
+    font-style: normal;
+    color:#D0C7B0;
+    margin-bottom: 16px;
+}
+
+#abouttext p{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px; 
+    color: #D0C7B0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+}
+
 
 
 /* FOOTER STARTS HERE  */

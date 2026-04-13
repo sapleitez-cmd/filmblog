@@ -104,6 +104,18 @@ a:hover{
     display: block;
 }
 
+#closingscene{
+    border: 50px solid #405B60;
+    width: 80%;
+    margin: 40px auto;
+}
+
+#closingscene iframe {
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
 
 /* FOOTER STARTS HERE  */
 
@@ -127,3 +139,4 @@ footer p{
     font-optical-sizing: auto;
     font-size: 13px;
 }
+
