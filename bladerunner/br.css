@@ -56,6 +56,7 @@ nav{
     text-align: left;
     position:fixed; 
     text-align: center;
+    z-index: 1000;
 
 }
 
@@ -92,6 +93,17 @@ a:hover{
     display: block;
 }
 
+details summary {
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #405B60;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+
 #trailer{
     border: 50px solid #BE5C01;
     width: 80%;
@@ -104,6 +116,24 @@ a:hover{
     display: block;
 }
 
+#review-section {
+    background-color: #BE5C01;
+    padding-top: 40px;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 40px;
+}
+
+#review-section p {
+    color: #1D1E1E;
+}
+
+#review-section h1 {
+    color: #1D1E1E;
+}
+
 
 /* FOOTER STARTS HERE  */
 
@@ -113,17 +143,28 @@ footer {
     font-family: "Libre Baskerville", serif;
     font-optical-sizing: auto;
     font-size: 13px;
-    text-align: center;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 0; /* removes gap between review and footer */
     display: flex;
     justify-content: center;
-    gap: 24px;
     align-items: center;
+    position: relative;
 }
 
-footer p{
+footer p {
     font-family: "Libre Baskerville", serif;
     font-optical-sizing: auto;
     font-size: 13px;
+    padding: 0; /* override the global p padding that was pushing it off-center */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer a {
+    margin-left: auto;
+}
+
+footer a + a {
+    margin-left: 24px;
 }

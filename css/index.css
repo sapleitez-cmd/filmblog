@@ -48,6 +48,7 @@ nav{
     text-align: left;
     position:fixed; 
     text-align: center;
+    z-index: 1000;
 
 }
 
@@ -148,11 +149,12 @@ a:hover{
     align-items: center;
     gap: 10px;
     padding: 60px 80px;
-    background-color:#1D1E1E;
+    background-color:#405B60;
 }
 
 #myphoto{
-    flex: 1;
+    flex: 0.5;
+    justify-items: right;
 }
 
 #myphoto img {
@@ -164,6 +166,8 @@ a:hover{
 
 #abouttext{
     flex: 1;
+    margin: 60px;
+    padding: 60px;
 }
 
 #abouttext h2{
@@ -197,17 +201,28 @@ footer {
     font-family: "Libre Baskerville", serif;
     font-optical-sizing: auto;
     font-size: 13px;
-    text-align: center;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 0; /* removes gap between review and footer */
     display: flex;
     justify-content: center;
-    gap: 24px;
     align-items: center;
+    position: relative;
 }
 
-footer p{
+footer p {
     font-family: "Libre Baskerville", serif;
     font-optical-sizing: auto;
     font-size: 13px;
+    padding: 0; /* override the global p padding that was pushing it off-center */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer a {
+    margin-left: auto;
+}
+
+footer a + a {
+    margin-left: 24px;
 }
