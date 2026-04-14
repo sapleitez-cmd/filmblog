@@ -68,6 +68,7 @@ nav a{
     font-size: 14px ;
     font-style: normal;
     padding: 14px;
+    text-decoration: none;
 }
 
 a{
@@ -174,6 +175,7 @@ footer p {
 
 footer a {
     margin-left: auto;
+    text-decoration: none;
 }
 
 footer a + a {
