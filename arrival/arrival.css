@@ -133,6 +133,17 @@ details summary {
     color: #D0C7B0;
 }
 
+#quote h1{
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-size: 20px;
+    color: #405B60;  
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
 #closingscene{
     border: 50px solid #405B60;
     width: 80%;

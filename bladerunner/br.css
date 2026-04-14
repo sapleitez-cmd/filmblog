@@ -134,6 +134,17 @@ details summary {
     color: #D0C7B0;
 }
 
+#quote h1{
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-size: 20px;
+    color: #1D1E1E;  
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
 
 /* FOOTER STARTS HERE  */
 

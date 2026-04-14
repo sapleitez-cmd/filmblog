@@ -132,6 +132,20 @@ details summary {
     color: #1D1E1E;
 }
 
+
+#quote h1{
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-size: 20px;
+    color: #BE5C01;  
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+
+
 /* FOOTER STARTS HERE  */
 
 footer {
